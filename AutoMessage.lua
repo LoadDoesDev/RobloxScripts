@@ -1,12 +1,12 @@
-local Messages = {
-	"Script",
-	"Made",
-	"By",
-	"Loadspecs"
+local Messages = { -- Messages
+	"Script", -- To
+	"Made", -- Send
+	"By", -- In
+	"Loadspecs" -- Chat
 }
-local MessageHold = 0.5
 
-local ShowBox = false -- Removes delay of text box tweens, disable for faster messages.
+local MessageHold = 0.5 -- Amount of time between each message | WILL BE MORE DELAY IF SHOWBOX IS TRUE
+local ShowBox = false -- Show a popup when you send it
 
 
 
